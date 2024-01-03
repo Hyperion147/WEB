@@ -3,16 +3,33 @@
     padding: 0;
 }
 
+header {
+    position: fixed;
+    width: 100vw;
+}
+
+.logo{
+    display: flex;
+margin: 0;
+
+height: 100px;
+}
+
+
 header nav {
     padding-bottom: 0px;
     display: flex;
-    background-color: rgb(167, 130, 235);
+    background-color: #b99ded;
     justify-content: space-around;
 }
-
+header nav .logo{
+    display: flex;
+    justify-content: flex-start;
+}
 header nav ul {
-    margin: 18px;
-    padding: 30px;
+    
+    margin: 20px;
+    padding: 17px 30px;
     display: flex;
     list-style-type: none;
     font-size: 22px;
@@ -20,23 +37,25 @@ header nav ul {
 }
 
 header nav ul li {
-    padding-left: 30px;
+    padding-left: 45px;
     margin-left: 10px;
     list-style-type: none;
 }
 
 header nav ul li a {
+    border-radius: 14px;
     text-decoration: none;
     color: black;
     float: left;
+    padding: 0px 5px;
 }
 header nav ul li a:hover {
-    background-color: #8e4bdf;
-    color: black;
+    background-color: #d7cbe5;
+    color: rgb(79, 2, 156);
   }
 
 header nav .searchbox {
-    margin: 38px;
+    margin: 28px;
     padding: 5px;
     margin-left: 10px;
 
@@ -70,7 +89,6 @@ header nav .searchbox button:hover{
 
 
 main{
-    background-color: #8e4bdf;
-    
-    height: 100vh;
+    background-color: #d8cae9;
+    height: 150vh;
 }
