@@ -6,13 +6,13 @@
 header {
     position: fixed;
     width: 100vw;
+
 }
 
-.logo{
+.logo {
     display: flex;
-margin: 0;
-
-height: 100px;
+    margin: 0;
+    height: 100px;
 }
 
 
@@ -22,12 +22,15 @@ header nav {
     background-color: #b99ded;
     justify-content: space-around;
 }
-header nav .logo{
+
+header nav .logo {
     display: flex;
     justify-content: flex-start;
+
 }
+
 header nav ul {
-    
+
     margin: 20px;
     padding: 17px 30px;
     display: flex;
@@ -49,10 +52,11 @@ header nav ul li a {
     float: left;
     padding: 0px 5px;
 }
+
 header nav ul li a:hover {
     background-color: #d7cbe5;
     color: rgb(79, 2, 156);
-  }
+}
 
 header nav .searchbox {
     margin: 28px;
@@ -69,7 +73,7 @@ header nav .searchbox input {
     outline: none;
     border: 3px solid rgb(9, 72, 37);
     padding-left: 15px;
-    font-family:  'Arial Narrow Bold', sans-serif;
+    font-family: 'Arial Narrow Bold', sans-serif;
 
 }
 
@@ -82,13 +86,27 @@ header nav .searchbox button {
     cursor: pointer;
     font-family: cursive;
 }
-header nav .searchbox button:hover{
+
+header nav .searchbox button:hover {
     background-color: rgb(124, 66, 231);
 }
 
 
 
-main{
+main {
     background-color: #d8cae9;
     height: 150vh;
+    padding-top: 100px;
+}
+
+main .content {
+    display: flex;
+}
+main .content section {
+    margin: 70px;
+    padding: 25px;
+}
+main .content section a{
+    text-decoration: none;
+    color: black;
 }
